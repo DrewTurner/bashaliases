@@ -1,3 +1,5 @@
 alias backuppics="aws s3 sync /home/drew/Dropbox/Camera\ Uploads/. s3://dtphonephotos"
 alias getpass="openssl rand -base64 20"
 alias donkeyactivate="cd ~/mycar && source env/bin/activate"
+alias donkeycopymodel="rsync -tr /home/drew/mycar/models/* pi@192.168.100.20:~/mycar/models/"
+alias donkeytubclean="donkey tubclean ~/donkeydatacapture/"
